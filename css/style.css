@@ -1,27 +1,61 @@
 header #pattern{
 height: 135px;
 width: 100%;
-background-color: aqua;
+background-color: #008cff;
 background-image: url(../img.css/pattern.png);
 background-size: 600px;
 }
 header #pattern img{
-    height: 30px;
+    height: 60px;
+    margin-top: 60px;
 }
-
-div .logo{
-    top: 30px;
-    height: 5px;
-    width: 1px;
+section h3{
+    color: gray;
+}
+div h5{
+    color: grey;
 }
 header span{
-    color: blue;
+    color: #00e5ff;
 }
 main span{
     background-color: yellow;
 }
+table{
+    border-collapse: collapse;
+    
+}
+thead td{
+    width: 25%;
+    background-color: hwb(198 0% 0%);
+    color: white;
+}
+tbody td{
+    background-color: #00e5ff;
+}
+tfoot td{
+    background-color: #00e5ff;
+}
+footer .text-image-2{
+    position: relative;
+}
+footer .text-image-2{
+    position: absolute;
+    margin-left: 30px;
+}
+footer .text-image-2{
+    color:white
+}
 
-
-table {
-    width: 1430px;
+footer .text-image{
+position:relative;
+}
+footer .text-image{
+    position:absolute
+}
+footer .text-image{
+    color:white
+}
+footer .text-image{
+    margin-left: 30px;
 }
